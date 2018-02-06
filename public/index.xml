@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>codelyon</title>
+    <link>/</link>
+    <description>Recent content on codelyon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Dec 2017 18:59:09 -0700</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello, world!</title>
+      <link>/post/hello-world/</link>
+      <pubDate>Thu, 07 Dec 2017 18:59:09 -0700</pubDate>
+      
+      <guid>/post/hello-world/</guid>
+      <description>It seems appropriate to not only start this today, but to use this title. Our second son, Mason, has said his own “Hello, world!”, in a manner of speaking. Obviously being a newborn he can’t speak yet but he’s at the beginning of his journey. Much like we all were at one point or another, and with each new thing we learn, continue that journey into a new realm.
+I remember writing my first program in the mid 90’s, and by program it was just “Hello, world!</description>
+    </item>
+    
+  </channel>
+</rss>

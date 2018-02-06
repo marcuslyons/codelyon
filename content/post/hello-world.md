@@ -1,0 +1,11 @@
+---
+title: "Hello, world!"
+date: 2017-12-07T18:59:09-07:00
+draft: false
+---
+
+It seems appropriate to not only start this today, but to use this title. Our second son, Mason, has said his own “Hello, world!”, in a manner of speaking. Obviously being a newborn he can’t speak yet but he’s at the beginning of his journey. Much like we all were at one point or another, and with each new thing we learn, continue that journey into a new realm.
+
+I remember writing my first program in the mid 90’s, and by program it was just “Hello, world!” printed to the screen. It was so gratifying to make that happen, even though looking back it’s trivial compared to what I’ve learned to do since that time. Originally my goal was to create games, and I did for a bit. I’m still upset with myself that I didn’t keep copies of those text adventure games, as terrible as they were it would have been great to go back and look them over now. A benchmark of a much younger me, a stranger at this point.
+
+I think my plan for this is just to write about what I’ve learned, what I’m building, and what I’m learning as I go. A reflective look at things, a place to store them, and a way to help others if they stumble upon a post as I’ve been thankful enough to others for doing so for years.
