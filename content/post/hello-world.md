@@ -2,6 +2,7 @@
 title: "Hello, world!"
 date: 2017-12-07T18:59:09-07:00
 draft: false
+keywords: "hello, world, first post, beginner, newborn, son, journey"
 ---
 
 It seems appropriate to not only start this today, but to use this title. Our second son, Mason, has said his own “Hello, world!”, in a manner of speaking. Obviously being a newborn he can’t speak yet but he’s at the beginning of his journey. Much like we all were at one point or another, and with each new thing we learn, continue that journey into a new realm.
