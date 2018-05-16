@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on codelyon</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on codelyon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Mar 2018 22:50:38 -0600</lastBuildDate>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My Mac Setup 2018: GUI Edition</title>
+      <link>/post/my-mac-setup-2018-1/</link>
+      <pubDate>Tue, 27 Mar 2018 22:50:38 -0600</pubDate>
+      
+      <guid>/post/my-mac-setup-2018-1/</guid>
+      <description>We all have a process and a preference for how we do things. As with anything related to software development, or personal use, opinions abound and zealots form on all sides. I’m not saying that the applications I use in my day to day are what everyone should use, but after a significant amount of testing I’ve found them to be quite useful. They’ve become daily uses for me, and I hope some of them might prove useful to you as well.</description>
+    </item>
+    
+    <item>
+      <title>Useful Docker Commands</title>
+      <link>/post/useful-docker-commands/</link>
+      <pubDate>Wed, 21 Mar 2018 16:40:21 -0600</pubDate>
+      
+      <guid>/post/useful-docker-commands/</guid>
+      <description>&lt;p&gt;Every now and then you just need a good reference&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hello, world!</title>
+      <link>/post/hello-world/</link>
+      <pubDate>Thu, 07 Dec 2017 18:59:09 -0700</pubDate>
+      
+      <guid>/post/hello-world/</guid>
+      <description>It seems appropriate to not only start this today, but to use this title. Since my son Mason has said his own “Hello, world!” today. Obviously being a newborn he can’t speak yet but he’s at the beginning of his journey. Much like we all were at one point or another, and with each new thing we learn, continue that journey into a new realm.
+I remember writing my first program as a kid, and by program it was just “Hello, world!</description>
+    </item>
+    
+  </channel>
+</rss>
