@@ -61,6 +61,8 @@ docker-compose logs - Show logs from containers | useful in daemon mode
 
 docker-compose up - Start containers based on docker-compose.yml
 
+docker-compose up -d --no-deps --build <service_name> - Rebuild and deploy just the container that needs updating
+
 docker-compose -f <Filepath> up - Start containers using docker-compose file in another directory
 
 docker-compose stop - Stop containers but dont remove them
