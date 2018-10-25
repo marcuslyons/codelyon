@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import styled from 'styled-components'
+import Disqus from 'disqus-react'
 
 import Layout from '../components/layout/layout'
 
@@ -17,6 +18,12 @@ const Date = styled.h5`
 const Page = ({ data }) => {
   const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
+  const disqusShortname = 'marcuslyons-com'
+  const disqusConfig = {
+    url: frontmatter.path,
+    identifier: markdownRemark.id,
+    title: frontmatter.title
+  }
 
   return (
     <Layout>
@@ -30,6 +37,7 @@ const Page = ({ data }) => {
           />
         </div>
       </Article>
+      <Disqus.DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
     </Layout>
   )
 }
@@ -52,6 +60,7 @@ export default Page
 export const pageQuery = graphql`
   query($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path }, draft: { eq: false } }) {
+      id
       html
       frontmatter {
         date(formatString: "YYYY.MM.DD")
