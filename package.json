@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "codelyon.com",
+  "description": "codeLyon blog",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Marcus Lyons <marcus.a.lyons@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.8.0",
     "disqus-react": "^1.0.5",
@@ -26,8 +26,7 @@
     "react-helmet": "^5.2.0",
     "react-typography": "^0.16.13",
     "styled-components": "^4.0.2",
-    "typography": "^0.16.17",
-    "typography-theme-twin-peaks": "^0.15.11"
+    "typography": "^0.16.17"
   },
   "keywords": [
     "gatsby"
@@ -44,6 +43,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/malyons/codelyon"
   }
 }

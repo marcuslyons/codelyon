@@ -1,19 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Footer = () => {
-  return (
-    <Container>
-      <FooterText>
-        {`©${new Date().getFullYear()} · Powered by `}
-        <StyledLink href="https://gatsbyjs.org" target="_blank">
-          Gatsby
-        </StyledLink>
-      </FooterText>
-    </Container>
-  )
-}
-
 const Container = styled.div`
   width: 100vw;
   height: 115px;
@@ -30,5 +17,20 @@ const FooterText = styled.div`
 const StyledLink = styled.a`
   text-decoration: none;
 `
+
+const Year = new Date().getFullYear()
+
+const Footer = () => {
+  return (
+    <Container>
+      <FooterText>
+        {`©${Year} · Powered by `}
+        <StyledLink href="https://gatsbyjs.org" target="_blank">
+          Gatsby
+        </StyledLink>
+      </FooterText>
+    </Container>
+  )
+}
 
 export default Footer

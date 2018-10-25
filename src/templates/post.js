@@ -9,8 +9,14 @@ import Layout from '../components/layout/layout'
 const Article = styled.article`
   padding-bottom: 60px;
   margin-bottom: 60px;
+`
+
+const InnerContainer = styled.div`
+  margin-bottom: 60px;
+  padding-bottom: 60px;
   border-bottom: 1px solid #ececec;
 `
+
 const Date = styled.h5`
   color: #a2a2a2;
 `
@@ -18,26 +24,26 @@ const Date = styled.h5`
 const Page = ({ data }) => {
   const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
-  const disqusShortname = 'marcuslyons-com'
+  const { disqusShortname, url } = data.site.siteMetadata
   const disqusConfig = {
-    url: frontmatter.path,
+    url: `${url}${frontmatter.path}`,
     identifier: markdownRemark.id,
-    title: frontmatter.title
+    title: frontmatter.title,
   }
 
   return (
     <Layout>
-      <Article className="blog-post-container">
-        <div className="blog-post">
+      <Article>
+        <InnerContainer>
           <h1>{frontmatter.title}</h1>
           <Date>{frontmatter.date}</Date>
-          <div
-            className="blog-post-content"
-            dangerouslySetInnerHTML={{ __html: html }}
-          />
-        </div>
+          <div dangerouslySetInnerHTML={{ __html: html }} />
+        </InnerContainer>
+        <Disqus.DiscussionEmbed
+          shortname={disqusShortname}
+          config={disqusConfig}
+        />
       </Article>
-      <Disqus.DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
     </Layout>
   )
 }
@@ -66,6 +72,12 @@ export const pageQuery = graphql`
         date(formatString: "YYYY.MM.DD")
         path
         title
+      }
+    }
+    site {
+      siteMetadata {
+        disqusShortname
+        url
       }
     }
   }
