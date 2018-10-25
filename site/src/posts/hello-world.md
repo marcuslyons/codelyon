@@ -1,6 +1,7 @@
 ---
 title: "Hello, world!"
-date: 2017-12-07T18:59:09-07:00
+path: /hello-world
+date: "2017-12-07T18:59:09-07:00"
 draft: false
 keywords: "hello, world, first post, beginner, newborn, son, journey"
 ---

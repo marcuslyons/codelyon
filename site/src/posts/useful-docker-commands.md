@@ -1,6 +1,7 @@
 ---
 title: "Useful Docker Commands"
 date: 2018-03-21T16:40:21-06:00
+path: /useful-docker-commands
 draft: false
 keywords: "docker, docker-compose, containers, containerization, cloud, vm, redis, microservices, developer, dev, development, software, convenience, article, blog post, blog"
 ---
