@@ -7,7 +7,6 @@ import linkedin from '../../images/linkedin.svg'
 import twitter from '../../images/twitter.svg'
 
 const Container = styled.aside`
-  width: 25vw;
   display: flex;
   flex-direction: column;
   align-items: center;

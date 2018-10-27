@@ -9,6 +9,10 @@ const Container = styled.header`
   overflow: hidden;
   position: relative;
   height: 400px;
+
+  @media (max-width: 700px) {
+    height: 200px;
+  }
 `
 
 const InnerContainer = styled.div`
@@ -29,6 +33,10 @@ const StyledLink = styled(Link)`
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
+
+  @media (max-width: 700px) {
+    font-size: 36px;
+  }
 `
 
 const BgImage = styled(Img)`
