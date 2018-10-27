@@ -11,20 +11,22 @@ Every now and then you just need a good reference
 <!--more-->
 
 <br>
-## Docker Machine
 
+## Docker Machine
+```
 docker-machine commands aren't needed if using the GUI toolkit, but where's the fun in that?
 
-<pre><code class="text">docker-machine start - Start VM
+docker-machine start - Start VM
 
 docker-machine stop - Stop VM
 
-docker-machine env - Display Docker client setup commands</code></pre>
-
+docker-machine env - Display Docker client setup commands
+```
 <br>
-## Docker
 
-<pre><code class="text">docker - List Docker CLI commands
+## Docker
+```
+docker - List Docker CLI commands
 
 docker <command> --help - Get help on a specific command
 
@@ -48,13 +50,13 @@ docker build -f <Your Dockerfile> -t <Tag Name> . - Build an image from a Docker
 
 docker login - Login using your Docker Hub credentials
 
-docker push <Your Image Name> - Push an image to Docker hub</code></pre>
-
-
+docker push <Your Image Name> - Push an image to Docker hub
+```
 <br>
-## Docker Compose
 
-<pre><code class="text">docker-compose build - Build images based on docker-compose
+## Docker Compose
+```
+docker-compose build - Build images based on docker-compose
 
 docker-compose up -d - Start in daemon mode
 
@@ -68,4 +70,5 @@ docker-compose -f <Filepath> up - Start containers using docker-compose file in 
 
 docker-compose stop - Stop containers but dont remove them
 
-docker-compose down - Stop and remove containers | CTRL+C/CMD+C can also be used but this is safer</code></pre>
+docker-compose down - Stop and remove containers | CTRL+C/CMD+C can also be used but this is safer
+```

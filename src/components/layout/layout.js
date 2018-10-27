@@ -10,14 +10,24 @@ import Footer from './footer'
 import favicon from '../../images/favicon.ico'
 
 const MainContainer = styled.div`
-  display: inline-grid;
-  grid-template-columns: 25vw 60vw;
-  margin: 0 auto;
-  max-width: 100%;
-  padding: 50px 1.0875rem 1.45rem;
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: 150px auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  max-width: 1100px;
+  padding-top: 50px;
 
-  & > p {
-    cursor: pointer;
+  @media (min-width: 1100px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (max-width: 700px) {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 15%;
+    margin-right: 15%;
   }
 `
 
@@ -27,6 +37,7 @@ const Layout = ({ children }) => (
       query {
         SiteTitleQuery: site {
           siteMetadata {
+            title
             headerTitle
           }
         }

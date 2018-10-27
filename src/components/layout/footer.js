@@ -10,8 +10,12 @@ const Container = styled.div`
   align-items: center;
 `
 
-const FooterText = styled.div`
+const FooterText = styled.h5`
   font-size: 16px;
+
+  @media (max-width: 700px) {
+    margin: 0;
+  }
 `
 
 const StyledLink = styled.a`

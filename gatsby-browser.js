@@ -20,3 +20,4 @@
 //     ? true
 //     : false
 // }
+require('prismjs/themes/prism-okaidia.css')
