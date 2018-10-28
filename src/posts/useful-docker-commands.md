@@ -13,62 +13,87 @@ Every now and then you just need a good reference
 <br>
 
 ## Docker Machine
-```
+
 docker-machine commands aren't needed if using the GUI toolkit, but where's the fun in that?
 
-docker-machine start - Start VM
+```
+# Start VM
+docker-machine start
 
-docker-machine stop - Stop VM
+# Stop VM
+docker-machine stop
 
-docker-machine env - Display Docker client setup commands
+# Display Docker client setup commands
+docker-machine env
 ```
 <br>
 
 ## Docker
 ```
-docker - List Docker CLI commands
+# List Docker CLI commands
+docker
 
-docker <command> --help - Get help on a specific command
+# Get help on a specific command
+docker <command> --help
 
-docker pull <Name of Image> - Pull image from Docker Hub
+# Pull image from Docker Hub
+docker pull <Name of Image>
 
-docker images - Show all images
+# Show all images
+docker images
 
-docker rmi <ImageID> - Remove specific images
+# Remove specific images
+docker rmi <ImageID>
 
-docker ps -a - Show all containers based on Docker env config
+# Show all containers based on Docker env config
+docker ps -a
 
-docker rm <ContainerID> -Remove specific container
+# Remove specific container
+docker rm <ContainerID>
 
-docker rm $(docker ps -a -q) Remove all containers
+# Remove all containers
+docker rm $(docker ps -a -q)
 
-docker ps --format 'table {{.Names}}\t{{.Image}}\t{{.Status}}' - Formatted list of containers
+# Formatted list of containers
+docker ps --format 'table {{.Names}}\t{{.Image}}\t{{.Status}}'
 
-docker run -d --name <Container Name> -p <External Port:Container Port> <Your Image> - Run a container in daemon mode bound to specified port
+# Run a container in daemon mode bound to specified port
+docker run -d --name <Container Name> -p <External Port:Container Port> <Your Image>
 
-docker build -f <Your Dockerfile> -t <Tag Name> . - Build an image from a Dockerfile
+# Build an image from a Dockerfile located in the current directory
+docker build -f <Your Dockerfile> -t <Tag Name> .
 
-docker login - Login using your Docker Hub credentials
+# Login using your Docker Hub credentials
+docker login
 
-docker push <Your Image Name> - Push an image to Docker hub
+# Push an image to Docker hub
+docker push <Your Image Name>
 ```
 <br>
 
 ## Docker Compose
 ```
-docker-compose build - Build images based on docker-compose
+# Build images based on docker-compose
+docker-compose build
 
-docker-compose up -d - Start in daemon mode
+# Start in daemon mode
+docker-compose up -d
 
-docker-compose logs - Show logs from containers | useful in daemon mode
+# Show logs from containers | useful in daemon mode
+docker-compose logs
 
-docker-compose up - Start containers based on docker-compose.yml
+# Start containers based on docker-compose.yml
+docker-compose up
 
-docker-compose up -d --no-deps --build <service_name> - Rebuild and deploy just the container that needs updating
+# Rebuild and deploy just the container that needs updating
+docker-compose up -d --no-deps --build <service_name>
 
-docker-compose -f <Filepath> up - Start containers using docker-compose file in another directory
+# Start containers using docker-compose file in another directory
+docker-compose -f <Filepath> up
 
-docker-compose stop - Stop containers but dont remove them
+# Stop containers but dont remove them
+docker-compose stop
 
-docker-compose down - Stop and remove containers | CTRL+C/CMD+C can also be used but this is safer
+# Stop and remove containers | CTRL+C/CMD+C can also be used but this is safer
+docker-compose down
 ```
