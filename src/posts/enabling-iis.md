@@ -6,7 +6,7 @@ draft: true
 keywords: "windows, development, IIS, services, dev"
 ---
 
-If, like me, you find yourself having to use Windows for development, some things can be confusing. One of which is Internet Information Services, or IIS.
+If, like me, you find yourself having to use Windows for development, some things can be confusing. One of which is Internet Information Services, or IIS. Coming from a Mac shop, I had never heard of IIS before.
 
 Which, we don't need to get into comparing it to different web servers like Apache or Nginx. If you'd like to read a little about the differences between it and Apache you can do so here (insert link here https://www.upguard.com/articles/iis-apache).
 
