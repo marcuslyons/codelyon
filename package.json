@@ -5,7 +5,6 @@
   "author": "Marcus Lyons <marcus.a.lyons@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.8.0",
-    "disqus-react": "^1.0.5",
     "gatsby": "^2.0.0",
     "gatsby-image": "^2.0.13",
     "gatsby-paginate": "^1.0.16",

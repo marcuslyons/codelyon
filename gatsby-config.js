@@ -7,7 +7,6 @@ module.exports = {
       linkedin: 'https://www.linkedin.com/in/marcuslyons/',
       twitter: 'https://twitter.com/theauron1223',
     },
-    disqusShortname: 'marcuslyons-com',
     url: 'https://codelyon.com',
   },
   plugins: [
