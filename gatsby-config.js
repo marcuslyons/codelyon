@@ -5,7 +5,7 @@ module.exports = {
     social: {
       github: 'https://github.com/malyons',
       linkedin: 'https://www.linkedin.com/in/marcuslyons/',
-      twitter: 'https://twitter.com/theauron1223',
+      twitter: 'https://twitter.com/marcuslyons_',
     },
     url: 'https://codelyon.com',
   },

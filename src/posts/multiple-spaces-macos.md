@@ -1,5 +1,5 @@
 ---
-title: "How to turn on multiple docks/menu-bars in MacOS!"
+title: "How to turn on multiple docks/menu-bars in MacOS"
 path: /multiple-spaces-macos
 date: "2019-10-28T13:56:09-07:00"
 draft: false
